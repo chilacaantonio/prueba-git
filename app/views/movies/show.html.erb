@@ -39,7 +39,7 @@
         <p><%= @movie.description %></p>
 
         <% if @reviews.blank? %>
-        <h3>Aun no hay reseñas, ¿Te gustaria escribir la primera? :)</h3>
+        <h3>Aun no hay reseñas, ¿Te gustaria escribir la primera?</h3>
         <%= link_to "Escribe una reseña", new_movie_review_path(@movie), class: "btn btn-danger" %>
         <% else %>
         <% @reviews.each do |review| %>
