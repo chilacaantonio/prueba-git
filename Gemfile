@@ -49,9 +49,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem "paperclip", "~> 5.0.0"
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'searchkick'
 group :development do
   gem "better_errors"
-gem "binding_of_caller"
-gem 'searchkick'
-
+  gem "binding_of_caller"
 end
